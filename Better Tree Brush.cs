@@ -139,7 +139,7 @@ public class TreeBrushTool : EditorWindow
         Undo.SetCurrentGroupName("Tree Brush Erase");
         int undoGroup = Undo.GetCurrentGroup();
 
-        GameObject[] allTrees = GameObject.FindObjectsOfType<GameObject>();
+        GameObject[] allTrees = GameObject.FindObjectsByType<GameObject>(FindObjectsSortMode.None);
         foreach (var obj in allTrees)
         {
             if (obj == null || obj.transform.parent != null) continue;
