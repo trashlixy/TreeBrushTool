@@ -1,5 +1,5 @@
 # TreeBrushTool
-Unity 6.1 better URP Tree Brush since Unity deleted the old one on new version :/ 
+Unity better URP Tree Brush since Unity deleted the old one on new version :/ 
 
 Just a Basic no License Tree Brush for everyone free to use / Edit - whatever you wanna do
 
